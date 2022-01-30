@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Architects Daughter', cursive;
+    display: grid;
+    
+}
+
+section{
+height: 200px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+}
+
+li{
+    margin-right: 20px;
+}
+
+a{
+    color:black ; 
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+/* About Me */
+
+#about_me{ 
+display:flex;
+
+}
+
+#about_me div{ 
+    width: 50%;
+    }
+
+#about_me_image{
+
+    height: auto;
+    width: 100%;
+}
